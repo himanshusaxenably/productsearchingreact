@@ -6,8 +6,75 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+p{
+  margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+.main{
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.product{
+  max-width: 300px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+img{
+  height: auto;
+  width: 100%;
+}
+.price{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.price p{
+  color: #000;
+}
+.product img {
+  height: 200px;
+  width: 100%;
+  border: 1px solid #000;
+}
+.product h3 {
+  font-size: 30px;
+  color: #000;
+  font-weight: 400;
+  position: relative;
+}
+.product h4 {
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+  padding: 5px 0px;
+}
+.product p {
+  font-size: 15px;
+  color: brown;
+  font-weight: 500;
+  padding: 2px 0px;
+}
+.price p {
+  color: royalblue;
+  font-weight: 700;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.product span {
+  font-size: 15px;
+text-align: right;
+}
+.product span {
+  font-weight: 500;
+  font-size: 18px;
+position: absolute;
+right: 0;
+top: 10px;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
